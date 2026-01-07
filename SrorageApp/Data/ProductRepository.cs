@@ -22,7 +22,14 @@ namespace SrorageApp.Data
 
         public async Task UpdateProductsAsync(Product pr)
         {
-            _db.Products.Update(pr);
+            var existing = await _db.Products.FindAsync(pr.Id);
+            if (existing == null) return;
+
+            existing.Name = pr.Name;
+            existing.Description = pr.Description;
+            existing.Price = pr.Price;
+            existing.Stock = pr.Stock;
+
             await _db.SaveChangesAsync();
         }
 
