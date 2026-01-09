@@ -9,7 +9,7 @@
 
 2. Open the solution with Visual Studio 2026: SrorageApp.slnx file
    
-4. Install NuGet packages
+4. Install NuGet packages <br>
    -Microsoft.EntityFrameworkCore
    -Microsoft.EntityFrameworkCore.SqlServer
    -Microsoft.EntityFrameworkCore.Tools
