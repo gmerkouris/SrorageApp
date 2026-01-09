@@ -9,7 +9,7 @@
 
 2. Open the solution with Visual Studio 2026: StorageApp.slnx file
    
-4. Install NuGet packages <br>
+4. Install NuGet packages (if not restored automatically) <br>
    -Microsoft.EntityFrameworkCore <br>
    -Microsoft.EntityFrameworkCore.SqlServer <br>
    -Microsoft.EntityFrameworkCore.Tools <br>
