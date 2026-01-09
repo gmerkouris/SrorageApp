@@ -7,7 +7,7 @@
 1. Clone the repository:
  bash:  git clone -b unitTest https://github.com/gmerkouris/SrorageApp.git
 
-2. Open the solution with Visual Studio 2026: SrorageApp.slnx file
+2. Open the solution with Visual Studio 2026: StorageApp.slnx file
    
 4. Install NuGet packages <br>
    -Microsoft.EntityFrameworkCore <br>
@@ -18,8 +18,8 @@
     -xUnit <br>
     -xunit.runner.visualstudio <br>
 
-5. Import the database file db.bacpac  from ..\SrorageApp\database\ into SQL SERVER
-6. Configure database connection: Update the DefaultConnection value in:  ..\SrorageApp\appsettings.json
+5. Import the database file db.bacpac  from ..\StorageApp\database\ into SQL SERVER
+6. Configure database connection: Update the DefaultConnection value in:  ..\StorageApp\appsettings.json
 7. Build the solution.
 8. Start Without Debugging (Ctrl + F5)
 9. Test credentials: <br>
