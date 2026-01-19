@@ -5,7 +5,7 @@
 
 ### Steps
 1. Clone the repository:
- bash:  git clone -b unitTest https://github.com/gmerkouris/SrorageApp.git
+ bash:  git clone -b unitTest https://github.com/gmerkouris/StorageApp.git
 
 2. Open the solution with Visual Studio 2026: StorageApp.slnx file
    
